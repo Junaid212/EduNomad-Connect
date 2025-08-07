@@ -102,12 +102,12 @@ const InstitutePortal1 = () => {
                 Access Institute Portal
               </Link>
             </button>
-            <button 
+            {/* <button 
               className="institute-secondary-button"
             >
               <MapPin className="button-icon" />
               View All Institutions
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@ const styles = `
 
 /* Hero Section Styles */
 .hero-section {
-  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  background: linear-gradient(135deg, #3bf6d16f, #ebdb259d);
   color: white;
 }
 
@@ -179,16 +179,18 @@ const styles = `
 
 .primary-button {
   background-color: white;
-  color: #3b82f6;
+  border: none;;
+  color: #B7912A;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   font-weight: 500;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
 }
 
 .primary-button:hover {
   background-color: #f0f7ff;
+
 }
 
 .secondary-button {
@@ -202,7 +204,7 @@ const styles = `
 
 .secondary-button:hover {
   background-color: white;
-  color: #3b82f6;
+  color: #B7912A;
 }
 
 .button-icon {
@@ -286,7 +288,7 @@ const styles = `
 .feature-icon {
   height: 1.5rem;
   width: 1.5rem;
-  color: #3b82f6;
+  color: #B7912A;
 }
 
 .feature-card-title {
@@ -345,22 +347,23 @@ const styles = `
 }
 
 .institute-primary-button {
-  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  background: linear-gradient(135deg, #B7912A, #2563eb);
   color: white;
+  border:none;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   font-weight: 500;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
 }
 
 .institute-primary-button:hover {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  // box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .institute-secondary-button {
-  border: 1px solid #3b82f6;
-  color: #3b82f6;
+  border: 1px solid #B7912A;
+  color: #B7912A;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   font-weight: 500;
@@ -368,7 +371,7 @@ const styles = `
 }
 
 .institute-secondary-button:hover {
-  background-color: #3b82f6;
+  background-color: #B7912A;
   color: white;
 }
 `;

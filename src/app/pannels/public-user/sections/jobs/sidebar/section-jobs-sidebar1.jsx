@@ -165,7 +165,7 @@ function SectionJobsSidebar1() {
                     </div>
                 </div>
             </div>
-            <SectionSideAdvert />
+            {/* <SectionSideAdvert /> */}
         </>
     )
 }

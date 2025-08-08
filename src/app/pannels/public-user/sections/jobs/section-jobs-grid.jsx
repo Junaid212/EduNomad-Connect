@@ -164,7 +164,7 @@ function SectionJobsGrid() {
                   {job.Experience}
                 </div>
                 <NavLink to={job.link} className="twm-jobs-browse site-text-primary">
-                  Browse Job
+                  Apply now
                 </NavLink>
               </div>
             </div>

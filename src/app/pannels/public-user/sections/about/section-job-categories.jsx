@@ -104,7 +104,7 @@ function SectionJobCategories() {
                       </div>
                       <div className="twm-content">
                         <div className="twm-jobs-available">{cat.jobs}</div>
-                        <NavLink to={publicUser.jobs.DETAIL1}>
+                        <NavLink >
                         <b>{cat.title}</b>
                         </NavLink>
                         <p>{cat.description}</p>
@@ -114,11 +114,11 @@ function SectionJobCategories() {
                 ))}
               </div>
             </div>
-            <div className="text-center job-categories-btn">
+            {/* <div className="text-center job-categories-btn">
               <NavLink to={publicUser.jobs.GRID} className="site-button">
                 All Categories
               </NavLink>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

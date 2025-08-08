@@ -4,6 +4,7 @@ import { publicUser } from "../../../../../globals/route-names";
 import JobZImage from "../../../../common/jobz-img";
 import CountUp from "react-countup";
 import { useEffect } from "react";
+import SectionJobCategories from "../../sections/about/section-job-categories";
 
 function Home3Page() {
 
@@ -79,175 +80,9 @@ function Home3Page() {
                             <NavLink to={publicUser.jobs.LIST}>Trainee</NavLink> ...
                         </div>
                     </div>
-                    {/* <div className="twm-bnr-bottom-section"> */}
-                        {/* <div className="twm-browse-jobs">7,000+ Browse Jobs</div> */}
-                        {/* <div className="twm-bnr-blocks-wrap"> */}
-                            {/*icon-block-1*/}
-                            {/* <div className="twm-bnr-blocks twm-bnr-blocks-position-1">
-                                <div className="twm-content">
-                                    <div className="tw-count-number text-clr-pink">
-                                        <span className="counter">
-                                            <CountUp end={12} duration={10} />
-                                        </span>K+
-                                    </div>
-                                    <p className="icon-content-info">Companies Jobs</p>
-                                </div>
-                            </div> */}
-                            {/*icon-block-2*/}
-                            {/* <div className="twm-bnr-blocks twm-bnr-blocks-position-2">
-                                <div className="twm-content">
-                                    <div className="tw-count-number text-clr-yellow">
-                                        <span className="counter">
-                                            <CountUp end={98} duration={10} />
-                                        </span> +
-                                    </div>
-                                    <p className="icon-content-info">Job For Countries </p>
-                                </div>
-                            </div> */}
-                            {/*icon-block-3*/}
-                            {/* <div className="twm-bnr-blocks-3 twm-bnr-blocks-position-3">
-                                <div className="twm-pics">
-                                    <span><JobZImage src="images/main-slider/slider1/user/u-1.jpg" alt="" /></span>
-                                    <span><JobZImage src="images/main-slider/slider1/user/u-2.jpg" alt="" /></span>
-                                    <span><JobZImage src="images/main-slider/slider1/user/u-3.jpg" alt="" /></span>
-                                    <span><JobZImage src="images/main-slider/slider1/user/u-4.jpg" alt="" /></span>
-                                    <span><JobZImage src="images/main-slider/slider1/user/u-5.jpg" alt="" /></span>
-                                    <span><JobZImage src="images/main-slider/slider1/user/u-6.jpg" alt="" /></span>
-                                </div>
-                                <div className="twm-content">
-                                    <div className="tw-count-number text-clr-green">
-                                        <span className="counter">
-<CountUp end={3} duration={10} />
-</span>K+
-                                    </div>
-                                    <p className="icon-content-info">Jobs Done</p>
-                                </div>
-                            </div> */}
-                        {/* </div> */}
-                    {/* </div> */}
                 </div>
             </div>
-            {/*Banner End*/}
-            {/* TOP COMPANIES START */}
-            {/* <div className="section-full p-t120 p-b90 site-bg-white twm-companies-wrap"> */}
-                {/* title="" START*/}
-                {/* <div className="section-head center wt-small-separator-outer">
-                    <div className="wt-small-separator site-text-primary">
-                        <div>Top Companies</div>
-                    </div>
-                    <h2 className="wt-title">Get hired in top companies</h2>
-                </div> */}
-                {/* title="" END*/}
-                {/* <div className="container"> */}
-                    {/* <div className="section-content">
-                        <div className="owl-carousel home-client-carousel3 owl-btn-vertical-center">
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w1.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w2.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w3.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w4.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w5.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w6.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w1.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w2.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w3.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="ow-client-logo">
-                                    <div className="client-logo client-logo-media">
-                                        <NavLink to={publicUser.employer.LIST}><JobZImage src="images/client-logo2/w5.png" alt="" /></NavLink></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* <div className="twm-company-approch2-outer">
-                        <div className="twm-company-approch2">
-                            <div className="row"> */}
-                                {/*block 1*/}
-                                {/* <div className="col-lg-4 col-md-4">
-                                    <div className="counter-outer-two">
-                                        <div className="icon-content">
-                                            <div className="tw-count-number site-text-black">
-                                                <span className="counter">
-<CountUp end={5} duration={10} />
-</span>M+</div>
-                                            <p className="icon-content-info">Million daily active users</p>
-                                        </div>
-                                    </div>
-                                </div> */}
-                                {/*block 2*/}
-                                {/* <div className="col-lg-4 col-md-4">
-                                    <div className="counter-outer-two">
-                                        <div className="icon-content">
-                                            <div className="tw-count-number site-text-black">
-                                                <span className="counter">
-<CountUp end={9} duration={10} />
-</span>K+</div>
-                                            <p className="icon-content-info">Open job positions</p>
-                                        </div>
-                                    </div>
-                                </div> */}
-                                {/*block 3*/}
-                                {/* <div className="col-lg-4 col-md-4">
-                                    <div className="counter-outer-two">
-                                        <div className="icon-content">
-                                            <div className="tw-count-number site-text-black">
-                                                <span className="counter">
-<CountUp end={2} duration={10} />
-</span>M+</div>
-                                            <p className="icon-content-info">Million stories shared</p>
-                                        </div>
-                                    </div>
-                                </div> */}
-                            {/* </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-            {/* TOP COMPANIES END */}
+          
             {/* HOW IT WORK SECTION START */}
             <div className="section-full p-t120 p-b90 site-bg-gray twm-how-it-work-area">
                 <div className="container">
@@ -470,7 +305,7 @@ Teachers: Browse jobs or tutoring opportunities based on your skills and locatio
                                         </div>
                                         <div className="twm-right-content">
                                             <div className="twm-jobs-amount">Apply Before: <span> September 10, 2025</span></div>
-                                            <NavLink to={publicUser.jobs.DETAIL1} className="twm-jobs-browse site-text-primary">Browse Job</NavLink>
+                                            <NavLink to={publicUser.jobs.DETAIL1} className="twm-jobs-browse site-text-primary">Apply Now</NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -511,7 +346,7 @@ Teachers: Browse jobs or tutoring opportunities based on your skills and locatio
                                             <div className="twm-fot-content">
                                                 <div className="twm-left-info">
                                                     <p className="twm-candidate-address"><i className="feather-map-pin" />New York</p>
-                                                    <div className="twm-jobs-vacancies">$20<span>/ Day</span></div>
+                                                    {/* <div className="twm-jobs-vacancies">$20<span>/ Day</span></div> */}
                                                 </div>
                                                 <div className="twm-right-btn">
                                                     <NavLink to={publicUser.candidate.DETAIL1} className="twm-view-prifile site-text-primary">View Profile</NavLink>
@@ -537,7 +372,7 @@ Teachers: Browse jobs or tutoring opportunities based on your skills and locatio
                                             <div className="twm-fot-content">
                                                 <div className="twm-left-info">
                                                     <p className="twm-candidate-address"><i className="feather-map-pin" />New York</p>
-                                                    <div className="twm-jobs-vacancies">$7<span>/ Hour</span></div>
+                                                    {/* <div className="twm-jobs-vacancies">$7<span>/ Hour</span></div> */}
                                                 </div>
                                                 <div className="twm-right-btn">
                                                     <NavLink to={publicUser.candidate.DETAIL1} className="twm-view-prifile site-text-primary">View Profile</NavLink>
@@ -563,7 +398,7 @@ Teachers: Browse jobs or tutoring opportunities based on your skills and locatio
                                             <div className="twm-fot-content">
                                                 <div className="twm-left-info">
                                                     <p className="twm-candidate-address"><i className="feather-map-pin" />New York</p>
-                                                    <div className="twm-jobs-vacancies">$180<span>/ Day</span></div>
+                                                    {/* <div className="twm-jobs-vacancies">$180<span>/ Day</span></div> */}
                                                 </div>
                                                 <div className="twm-right-btn">
                                                     <NavLink to={publicUser.candidate.DETAIL1} className="twm-view-prifile site-text-primary">View Profile</NavLink>
@@ -589,7 +424,7 @@ Teachers: Browse jobs or tutoring opportunities based on your skills and locatio
                                             <div className="twm-fot-content">
                                                 <div className="twm-left-info">
                                                     <p className="twm-candidate-address"><i className="feather-map-pin" />New York</p>
-                                                    <div className="twm-jobs-vacancies">$90<span>/ Week</span></div>
+                                                    {/* <div className="twm-jobs-vacancies">$90<span>/ Week</span></div> */}
                                                 </div>
                                                 <div className="twm-right-btn">
                                                     <NavLink to={publicUser.candidate.DETAIL1} className="twm-view-prifile site-text-primary">View Profile</NavLink>
@@ -615,7 +450,7 @@ Teachers: Browse jobs or tutoring opportunities based on your skills and locatio
                                             <div className="twm-fot-content">
                                                 <div className="twm-left-info">
                                                     <p className="twm-candidate-address"><i className="feather-map-pin" />New York</p>
-                                                    <div className="twm-jobs-vacancies">$95<span>/ Day</span></div>
+                                                    {/* <div className="twm-jobs-vacancies">$95<span>/ Day</span></div> */}
                                                 </div>
                                                 <div className="twm-right-btn">
                                                     <NavLink to={publicUser.candidate.DETAIL1} className="twm-view-prifile site-text-primary">View Profile</NavLink>
@@ -641,7 +476,7 @@ Teachers: Browse jobs or tutoring opportunities based on your skills and locatio
                                             <div className="twm-fot-content">
                                                 <div className="twm-left-info">
                                                     <p className="twm-candidate-address"><i className="feather-map-pin" />New York</p>
-                                                    <div className="twm-jobs-vacancies">$19<span>/ Hour</span></div>
+                                                    {/* <div className="twm-jobs-vacancies">$19<span>/ Hour</span></div> */}
                                                 </div>
                                                 <div className="twm-right-btn">
                                                     <NavLink to={publicUser.candidate.DETAIL1} className="twm-view-prifile site-text-primary">View Profile</NavLink>
@@ -658,90 +493,7 @@ Teachers: Browse jobs or tutoring opportunities based on your skills and locatio
                     </div>
                 </div>
             </div>
-            {/* CANDIDATES END */}
-            {/* OUR BLOG START */}
-            {/* <div className="section-full p-t120 p-b90 site-bg-light-purple">
-                <div className="container"> */}
-                    {/* title="" START*/}
-                    {/* <div className="section-head center wt-small-separator-outer">
-                        <div className="wt-small-separator site-text-primary">
-                            <div>Our Blogs</div>
-                        </div>
-                        <h2 className="wt-title">Latest Article</h2>
-                    </div> */}
-                    {/* title="" END*/}
-                    {/* <div className="section-content">
-                        <div className="twm-blog-post-3-outer-wrap">
-                            <div className="row d-flex justify-content-center">
-                                <div className="col-lg-4 col-md-6 col-sm-12"> */}
-                                    {/*Block one*/}
-                                    {/* <div className="blog-post twm-blog-post-3-outer">
-                                        <div className="wt-post-media">
-                                            <NavLink to={publicUser.blog.DETAIL}><JobZImage src="images/blog/latest/bg10.jpg" alt="" /></NavLink>
-                                        </div>
-                                        <div className="wt-post-info">
-                                            <div className="wt-post-meta ">
-                                                <ul>
-                                                    <li className="post-date">March 05, 2023</li>
-                                                    <li className="post-author">By <NavLink to={publicUser.candidate.DETAIL1}>Mark Petter</NavLink></li>
-                                                </ul>
-                                            </div>
-                                            <div className="wt-post-title ">
-                                                <h4 className="post-title">
-                                                    <NavLink to={publicUser.blog.DETAIL}>How to convince recruiters.</NavLink>
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div> */}
-                                {/* </div> */}
-                                {/* <div className="col-lg-4 col-md-6 col-sm-12"> */}
-                                    {/*Block two*/}
-                                    {/* <div className="blog-post twm-blog-post-3-outer"> */}
-                                        {/* <div className="wt-post-media">
-                                            <NavLink to={publicUser.blog.DETAIL}><JobZImage src="images/blog/latest/bg11.jpg" alt="" /></NavLink>
-                                        </div> */}
-                                        {/* <div className="wt-post-info">
-                                            <div className="wt-post-meta ">
-                                                <ul>
-                                                    <li className="post-date">March 05, 2023</li>
-                                                    <li className="post-author">By <NavLink to={publicUser.candidate.DETAIL1}>David Wish</NavLink></li>
-                                                </ul>
-                                            </div>
-                                            <div className="wt-post-title ">
-                                                <h4 className="post-title">
-                                                    <NavLink to={publicUser.blog.DETAIL}>5 things to know about the March.</NavLink>
-                                                </h4>
-                                            </div>
-                                        </div> */}
-                                    {/* </div> */}
-                                {/* // </div> */}
-                                {/* <div className="col-lg-4 col-md-6 col-sm-12"> */}
-                                    {/*Block three*/}
-                                    {/* <div className="blog-post twm-blog-post-3-outer">
-                                        <div className="wt-post-media">
-                                            <NavLink to={publicUser.blog.DETAIL}><JobZImage src="images/blog/latest/bg12.jpg" alt="" /></NavLink>
-                                        </div>
-                                        <div className="wt-post-info">
-                                            <div className="wt-post-meta ">
-                                                <ul>
-                                                    <li className="post-date">March 05, 2023</li>
-                                                    <li className="post-author">By <NavLink to={publicUser.candidate.DETAIL1}>Mike Doe</NavLink></li>
-                                                </ul>
-                                            </div>
-                                            <div className="wt-post-title ">
-                                                <h4 className="post-title">
-                                                    <NavLink to={publicUser.blog.DETAIL}>Job Board is the most important</NavLink>
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div> */}
-                                {/* </div> */}
-                        {/* //     </div> */}
-                        {/* </div> */}
-                    {/* // </div> */}
-                {/* // </div> */}
-            {/* </div> */}
-            {/* OUR BLOG END */}
+           <SectionJobCategories />
         </>
     )
 }
